@@ -1,0 +1,8 @@
+# Compiled C++ programs
+*.exe
+
+# VS Code settings
+.vscode/
+
+# Output/build folders
+output/
