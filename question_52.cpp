@@ -8,7 +8,12 @@ public:
     string name;
     int age;
 
-    // Method to display student info
+    // Constructor - runs automatically when object is created
+    Student(string n, int a) {
+        name = n;
+        age = a;
+    }
+
     void display() {
         cout << "Name: " << name << endl;
         cout << "Age: " << age << endl;
@@ -16,17 +21,13 @@ public:
 };
 
 int main() {
-    // Creating an object of Student class using 'new' operator
-    Student* s1 = new Student();
+    // Dynamically creating an object using 'new', passing values to constructor
+    Student* s1 = new Student("Samarpan", 21);
 
-    // Accessing members via pointer (arrow operator)
-    s1->name = "Samarpan";
-    s1->age = 21;
-
-    // Calling method using the object
+    // Calling method through the pointer
     s1->display();
 
-    // Free the memory manually
+    // Free the dynamically allocated memory
     delete s1;
 
     return 0;
