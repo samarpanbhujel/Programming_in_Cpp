@@ -1,4 +1,4 @@
-// Write a program to create an object of a class using new operator.
+// Write a program to dynamically create an object of a class using new operator.
 
 #include <iostream>
 using namespace std;
