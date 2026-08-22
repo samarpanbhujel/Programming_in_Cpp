@@ -1,4 +1,4 @@
-// Programs to implement Euclidean and Extended Euclidean algorithms.
+// Programs to implement Extended Euclidean algorithms.
 #include <iostream>
 using namespace std;
 
