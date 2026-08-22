@@ -1,3 +1,4 @@
+// Programs to implement set operations: union, intersection, difference, and Cartesian product.
 #include <iostream>
 #include <vector>
 using namespace std;
